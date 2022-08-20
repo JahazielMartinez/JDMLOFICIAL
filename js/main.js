@@ -134,6 +134,22 @@
         barColor: "#ffffff",
     });
 
+    $('#bar5').barfiller({
+        barColor: "#ffffff",
+    });
+
+    $('#bar6').barfiller({
+        barColor: "#ffffff",
+    });
+
+    $('#bar7').barfiller({
+        barColor: "#ffffff",
+    });
+
+    $('#bar8').barfiller({
+        barColor: "#ffffff",
+    });
+
     /*-------------------
 		Nice Scroll
 	--------------------- */

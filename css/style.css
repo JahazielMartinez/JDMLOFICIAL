@@ -52,9 +52,17 @@ p {
 
 img {
     max-width: 100%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
-div.certifications:hover{
+video {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+div.certifications:hover {
     transform: scale(1.1);
 }
 
@@ -76,6 +84,16 @@ ul,
 ol {
     padding: 0;
     margin: 0;
+}
+
+.icon {
+    list-style: none;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+.space {
+    margin-right: 2.5rem;
 }
 
 
@@ -1220,8 +1238,8 @@ ol {
 }
 
 .about.about--page {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .about.about--page .section-title {
@@ -1255,12 +1273,13 @@ ol {
 
 .skills {
     padding-bottom: 117;
-    padding-top: 80px;
+    padding-top: 0.5rem;
 }
 
 .skills__content {
     background: #000000;
     height: auto;
+    border-radius: 1rem;
     padding: 100px 70px 60px;
 }
 
