@@ -17,6 +17,10 @@ h6 {
     font-family: "Rajdhani", sans-serif;
 }
 
+.white {
+    color: #FFFFFF;
+}
+
 h1 {
     font-size: 70px;
 }
@@ -2979,7 +2983,7 @@ ol {
 body {
     background: #FFF;
     /* font-family: 'Open Sans', Arial, 'Helvetica Neue', Sans-serif, Verdana, Tahoma; */
-    font-size: 100%%;
+    font-size: 100%;
 }
 
 ul {
@@ -2987,8 +2991,12 @@ ul {
 }
 
 a {
-    color: #1396e1;
+    color: #000000;
     text-decoration: none;
+}
+
+a:hover {
+    color: #00468c;
 }
 
 .clearfix:after {
