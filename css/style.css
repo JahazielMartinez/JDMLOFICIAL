@@ -1928,6 +1928,7 @@ ol {
 .blog__large__pic_web {
     height: 620px;
     position: relative;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .blog__large__pic_photo {
@@ -3233,4 +3234,13 @@ a:hover {
 
 .active-bar {
     border-bottom: 4px solid #ffffff;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.md {
+    font-size: 1.6rem;
 }
