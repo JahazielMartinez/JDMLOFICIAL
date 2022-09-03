@@ -3244,3 +3244,7 @@ a:hover {
 .md {
     font-size: 1.6rem;
 }
+
+.shadow {
+    text-shadow: 2px 2px 8px #ffffff;
+}
